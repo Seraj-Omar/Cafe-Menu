@@ -5,7 +5,89 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Cafe Menu</title>
-        <link rel="stylesheet" href="/practice/style.css">
+        <style>
+            body{
+    padding: 20px;
+    font-family: sans-serif;
+    background-image: url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg);
+}
+div{
+    border-radius: 5px;
+}
+h1,h2,p{
+    text-align: center;
+}
+h1,h2{
+    font-family: Impact, serif;
+}
+h1{
+    font-size: 40px;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+h2{
+    font-size: 30px;
+}
+hr{
+    height: 2px;
+    background-color: brown;
+    border-color: brown;
+}
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -25px;
+}
+.menu{
+    background-color: burlywood;
+    width: 80%;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+}
+.flavor,.dessert {
+    text-align: left;
+    width: 75%;
+}
+  
+.price {
+    text-align: right;
+    width: 25%;
+}
+.item p{
+    font-size: 18px;
+    display: inline-block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.established {
+    font-style: italic;
+}
+.bottom-line{
+    margin-top: 25px;
+}
+.address{
+    margin-bottom: 5px;
+}
+/* FOOTER */
+footer{
+    font-size: 14px;
+}
+a{
+    color: black;
+}
+a:visited{
+    color: black;
+}
+a:hover{
+    color: brown;
+}
+a:active{
+    color: brown;
+}
+        </style>
     </head>
     <body>
         <div class="menu">
